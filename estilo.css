@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #FFFFFF;
+	font-family: Courier New, Monaco, monospace;
+	margin: 0;
+	min-height: 100%;
+  	display: flex;
+  	flex-direction: column;
+}
+
+html {
+  height: 100%;
+}
+
+
+/* layout */
+
+#area-cabecalho{
+	background: #FED4A0;
+	padding: 10px;
+	height: 100px;
+}
+
+#formatação{
+	float: left;
+	width: 100px;
+}
+
+#area-menu{
+	font-size: 20px;
+	padding: 38px;
+	text-align: right;	
+}
+
+a{
+	text-decoration: none;
+}
+
+#area-menu a:link, #area-menu a:visited {
+	padding: 15px 8px;
+	color: white;
+}
+
+#area-menu a:hover {
+	background: white ;
+	color: #FDD790;
+}
+
+#area-cardapio{
+	background-color: #FED4A0;
+	width: 920px;
+	margin: 100px auto;
+	padding: 15px;
+}
+
+.cupcake{
+	background: white;
+	width: 200px;
+	height: 370px;
+	margin: 15px;
+	padding: 35px;
+	padding-bottom: 30px;
+	display: inline-block;
+}
+
+#area-principal{
+	height: 350px;
+	width: 920px;
+	margin: auto;
+	padding: 15px;
+}
+
+#formatação-preços{
+	background: #FED4A0;
+	width: 450px;
+	height: 250px;
+	margin-top: 35px;
+	margin-bottom: 0;
+	float: left;
+	position: relative;
+	right: 15px;
+}
+
+#formatação-botão{
+	background: #FED4A0;
+	border: 2px solid #2A1B0A;
+	width: 120px;
+	height: 40px;
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+#rodapé{
+	background: #FED4A0;
+	height: 50px;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px;
+	color: white;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#formatação-logo-rodapé{
+	float: left;
+	width: 60px;
+}
+
+
+/* Formatação geral */
+
+.letra{
+	font-size: 15px;
+	color: #2A1B0A;
+	margin: 20px;
+	text-align: center;
+}
+
+.letra2{
+	color: #2A1B0A;
+}
+
+#letra3{
+	color: #2A1B0A;
+	position: relative;
+	right: 15px;
+}
+
+#letra4{
+	color: #2A1B0A;
+	text-align: center;
+	padding: 10px;
+}
+
+.letra5{
+	font-size: 20px;
+	color: #2A1B0A;
+	padding: 10px;
+	font-weight: 900;
+	position: relative;
+	left: 30px;
+	top: 20px;
+}
+
+.formatação-imagens{
+	width: 90px;
+	height: 120px;
+	position: relative;
+	left: 50px;
+	
+}
+
+#formatação2{
+	background-image: url('imagens/fundo2.jpeg');
+	background-repeat: no-repeat;
+	width: 410px;
+	height: 300px;
+	float: right;
+	clear: both;
+	position: relative;
+	bottom: 280px;
+	left: 15px;
+	margin-bottom: 0;
+}
+
+#formatação-link{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	left: 5px;
+	top: 7px;
+}
+
+#formatação-lista{
+	font-size: 23px;
+	color: #2A1B0A;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px;
+	padding: 15px;
+	position: relative;
+	left: 80px;
+}
+
+
+h1{
+	text-align: center;
+	color: white;
+	padding: 5px;
+	padding-bottom: 30px;
+	font-size: 30px;
+}
+
+h4{
+	font-size: 20px;
+	padding: 20px;
+	color: #2A1B0A;
+}
+
+
+
+
+
+

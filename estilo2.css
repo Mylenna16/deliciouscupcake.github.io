@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #FFFFFF;
+	font-family: Courier New, Monaco, monospace;
+}
+
+/* layout */
+
+#area-cabecalho{
+	background: #FED4A0;
+	padding: 10px;
+	height: 100px;
+}
+
+#formatação{
+	float: left;
+	width: 100px;
+}
+
+#area-menu{
+	font-size: 20px;
+	padding: 38px;
+	text-align: right;	
+}
+
+a{
+	text-decoration: none;
+	color: #2A1B0A;
+}
+
+#area-menu a:link, #area-menu a:visited {
+	padding: 15px 8px;
+	color: white;
+}
+
+#area-menu a:hover {
+	background: white;
+	color: #FED4A0;
+}
+
+#area-contato{
+	background-image: url('imagens/fundo3.jpg');
+	width: 1349px;
+	margin-top: 70px;
+	height: 500px;
+	float: none;
+}
+
+.informações{
+	width: 300px;
+	height: 150px;
+	float: left;
+	position: relative;
+	top: 80px;
+	left: 27px;
+	margin: 15px;
+	padding: 50px;
+	padding-top: 30px;
+	display: inline-block;
+}
+
+#rodapé{
+	background: #FED4A0;
+	height: 50px;
+	margin-top: 80px;
+	text-align: center;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#formatação-logo-rodapé{
+	float: left;
+	width: 60px;
+}
+
+/* formatações gerais */
+
+h1{
+	font-size: 50px;
+	padding-top: 30px;
+	text-align: center;
+	font-family: FreeMono, monospace;
+}
+
+.letra{
+	color: #2A1B0A;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.letra2{
+	color: #2A1B0A;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.formatação-número{
+	font-size: 20px;
+	margin: 10px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
